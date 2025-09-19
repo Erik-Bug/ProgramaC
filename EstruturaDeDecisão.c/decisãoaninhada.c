@@ -7,15 +7,31 @@ int main() {
 
     int idade;
     int renda;
-    int dependecnia;
+    int dependencia;
 
     printf("Digite sua idade: \n");
     scanf("%d", &idade);
     printf("Digite sua renda mensal: \n");
     scanf("%d", &renda);
     printf("Digite a quantidade de dependendcias: \n");
-    scanf("%d")
+    scanf("%d", &dependencia);
 
+    if (idade >= 18 && idade < 65 ){ 
+        if (renda < 3000){
+            if (dependencia > 2)
+            {
+                printf("Você cumpre a todos os requisitos");
+            } else {
+                printf("você não cumpre aos requisitos de dependencia");
+            }
+    } else {
+        printf("Os requisitos de renda não são atendidos");
+    } 
+    
+    } else {
+        printf("os requisitos de idade não são atendidos");
+    }
+    
 
     return 0;
 }
