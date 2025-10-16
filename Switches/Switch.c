@@ -2,7 +2,7 @@
 
 int main() {
     int num;
-
+do{
     printf("digite um número:");
     scanf("%d", &num);
 
@@ -19,6 +19,8 @@ int main() {
         printf("seu número não consta\n");
         break;
     }
+} while (num =! 0);
+
 
     return 0;
 }

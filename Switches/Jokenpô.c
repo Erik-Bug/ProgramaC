@@ -44,7 +44,9 @@ int main() {
     case 3:
         printf("Computador: Tesoura\n");
         break;
-    }
+    default:
+    
+    } 
 
     if (escolhajogador == escolhacomputador)
     {
