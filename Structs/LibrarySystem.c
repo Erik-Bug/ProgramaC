@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <strings.h>
+#include <string.h>
 
 // Constantes globais
 
@@ -90,7 +90,7 @@ int main() {
                     printf("Nome: %s\n", biblioteca[i].nome);
                     printf("Autor: %s\n", biblioteca[i].autor);
                     printf("Editora: %s\n", biblioteca[i].editora);
-                    printf("Edição: %d\n", biblioteca[1].edicao);
+                    printf("Edição: %d\n", biblioteca[i].edicao);
                 }
                 printf("-----------------------------------\n");
             }
